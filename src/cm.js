@@ -1,0 +1,11 @@
+import CodeMirror from 'codemirror';
+import htmlembedded from 'codemirror/mode/htmlembedded/htmlembedded';
+import 'codemirror/mode/scheme/scheme';
+import 'codemirror/lib/codemirror.css';
+import 'codemirror/addon/display/autorefresh';
+import 'codemirror/addon/edit/closebrackets';
+import 'codemirror/addon/edit/matchbrackets';
+import 'codemirror/theme/liquibyte.css';
+import 'codemirror/addon/scroll/simplescrollbars';
+import 'codemirror/addon/scroll/simplescrollbars.css';
+const parinferCodeMirror = require('../parinfer-codemirror/parinfer-codemirror.js');
