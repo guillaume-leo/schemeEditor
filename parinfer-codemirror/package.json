@@ -1,0 +1,12 @@
+{
+  "name": "parinfer-codemirror",
+  "version": "1.4.2",
+  "main": "parinfer-codemirror.js",
+  "devDependencies": {
+    "codemirror": "5.28.0",
+    "raphael": "2.2.7"
+  },
+  "dependencies": {
+    "parinfer": "^3.11.0"
+  }
+}
